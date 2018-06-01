@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">contactus</string>
+    <string name="company">MKV Designs</string>
+    <string name="description">MKV Design is a greatly respected, award-winning interior architecture and design company which specializes in hotels, resorts, spas and residential work. Founded in London by Maria Vafiadis in 2000, the practice creates individual interiors inspired by the culture and nature of the location, by the travels of the team and by the artisans with whom they work.
+    </string>
+    <string name="details">Details:-</string>
+    <string name="hours">Hours of Operation:-10am to 6pm</string>
+    <string name="number">18001815600</string>
+    <string name="email">enquiry@mkvdesigns.com</string>
+    <string name="address">17 Plumbers Row, London E1 1EQ, United Kingdom</string>
+
+
+</resources>

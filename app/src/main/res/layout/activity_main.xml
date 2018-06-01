@@ -1,0 +1,154 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141414 "
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/imageviewheight"
+                android:background="@drawable/interior" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="66dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="monospace"
+                    android:text="@string/company"
+                    android:textColor="#ffffff"
+                    android:textSize="40sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:padding="@dimen/padding"
+                android:text="@string/description"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/padding"
+                android:text="@string/details"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/header"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:paddingLeft="@dimen/padding"
+                android:paddingTop="@dimen/paddingtop"
+                android:text="@string/hours"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/content"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding">
+
+                <ImageView
+                    android:layout_width="31dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/phone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="monospace"
+                    android:onClick="call"
+                    android:paddingLeft="@dimen/padding"
+                    android:text="@string/number"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/padding"
+            android:paddingTop="@dimen/paddingtop">
+
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="32dp"
+                android:background="@drawable/email" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="monospace"
+                android:onClick="mail"
+                android:paddingLeft="@dimen/padding"
+                android:text="@string/email"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/padding"
+            android:paddingTop="@dimen/paddingtop">
+
+            <ImageView
+                android:layout_width="31dp"
+                android:layout_height="32dp"
+                android:background="@drawable/images" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="monospace"
+                android:paddingLeft="@dimen/padding"
+                android:text="@string/address"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

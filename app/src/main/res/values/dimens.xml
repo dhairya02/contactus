@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textview_height">25dp</dimen>
+    <dimen name="textview_width">150dp</dimen>
+    <dimen name="imageviewheight">150dp</dimen>
+    <dimen name="content">12sp</dimen>
+    <dimen name="header">20sp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="paddingtop">4dp</dimen>
+</resources>
